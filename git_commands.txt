@@ -1,0 +1,33 @@
+cd projectfoldername
+git clone httpsurl
+git status
+git add.
+get commit -m "comments can be typed of your choice"
+get push u origin master
+
+clear
+pwd is used to get thecurrent working directory
+git --version will give the version of the git installed on your machine
+git init: intialises the workspace folder to have .git folder (local repository)
+git status: will let you how your workspace are there any changes with respect to local repository
+git add . or git add a.py b.py or git add .* : will add these files from workspace to staging area
+git commit -m "comment": commit these files/changes to your local respository
+git config --global user.email "email address"
+git config --global user.name "user name" :the cnfiguration commands should be executed only once that is first time before u commit anything to local respository
+git commit -a -m "comment": if the files are alrady present in stage and local respoistory, but modified contents has to be committed then we can go with this command
+git branch : to see how many branches we have created
+git branch branchname: will create a new branch with commits and files from current branch
+git checkout branchname: to switch from one branchto other
+git add a.txt;git commit -m "added a.txt": we can combine 2 commands using ; in between and execute at one shot
+git log --oneline: which gives one line information of all commits
+ls -files: will list all the files in thecurrent directory
+git branch: will give all the branches and in tht current branch where we are in is represented with * symbol
+touch a.txt b.txt: creation of files in current directiry
+vim a.txt: it will create the file in current directory and open in editor to edit the file contents, we can right and use :wq! to save changes to the file
+
+get diff a.txt: which finds the differences in a.txt file from stage directory(source) and workign directory (destination)
+merge should be done from master/main branch only
+git merge feature: feature is the other branch and  we are merging feature branch to the master branch
+git clone "http url from remote repo i.e. github": which creates a local repo in our workign directory newly
+git push origin main: which is pushing the code (if you have modified any file or any new commits) from current local repo branch (main) to main branch in remote repo
+git pull origin main: pulling the code wth new files or new commits form remote repo to local repo of main branch additionally after the initial clone
